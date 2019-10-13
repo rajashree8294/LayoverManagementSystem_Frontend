@@ -1,6 +1,9 @@
 {
   "name": "travel-mania",
   "version": "0.0.0",
+  "engine":{
+    "node":"v10.15.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
