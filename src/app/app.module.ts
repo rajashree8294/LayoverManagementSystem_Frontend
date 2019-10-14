@@ -21,6 +21,7 @@ import { TravelGuideComponent } from './travel-guide/travel-guide.component';
 import { CurrencyPartnerComponent } from './currency-partner/currency-partner.component';
 import { PassengerDetailsComponent } from './passenger-details/passenger-details.component';
 import { ExecutePaymentComponent } from './execute-payment/execute-payment.component';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +49,7 @@ import { ExecutePaymentComponent } from './execute-payment/execute-payment.compo
     FormsModule,
     HttpClientModule,
     NgbModule,
+    NgxTypedJsModule
   ],
   exports: [
     HeaderComponent,

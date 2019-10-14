@@ -6,6 +6,15 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* .searchFormInline{
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .middle{
     height: 600px;
     width: 1510px;
@@ -19,7 +28,18 @@
     height: auto;
     width: 100% !important;
 }
-
+.video-container{
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(8, 8, 8, 0.452),rgba(10, 10, 10, 0.938)),url(../../assets/back1.jpg);
+  background-size: cover;
+  background-position: right center;
+}
+.video-container {
+    width:100%;
+    overflow:hidden;
+    top:0;
+    left:0;
+}
 .rec{
     margin-left:320px;
     font-size: 40px;
@@ -164,4 +184,10 @@
   
   .cardHeader{
       text-align: center;
+  }
+
+  .txt{
+    font-family: 'Quicksand';
+    font-weight: bold;
+    color: white;
   }

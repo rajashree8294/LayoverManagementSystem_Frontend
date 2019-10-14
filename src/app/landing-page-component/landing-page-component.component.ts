@@ -6,6 +6,7 @@ import { MessageService } from '../services/share-flight-details.service';
 import { Flight } from '../model/Flight';
 import { Observable } from 'rxjs';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-landing-page-component',
@@ -57,6 +58,17 @@ export class LandingPageComponentComponent implements OnInit {
   }
 
   ngOnInit() {
+    $(document).ready(function() {
+      // Transition effect for navbar
+      $(window).scroll(function() {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if ($(this).scrollTop() >= 200) {
+            $('.navbar').addClass('solid');
+        } else {
+            $('.navbar').removeClass('solid');
+        }
+      });
+    });
   }
 
   searchSource = (text$: Observable<string>) =>

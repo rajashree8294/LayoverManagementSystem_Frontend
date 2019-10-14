@@ -37,3 +37,29 @@ img{
     border-radius: 45%;
     height: 80px;
 }
+
+.nav{
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 100;
+}
+.solid{
+  color:white;
+  background-color: rgb(88, 86, 88);
+  transition: background-color 1s ease 0s;
+}
+
+.text-light{
+    color: white !important;
+}
+
+.txt{
+    font-family: 'Quicksand';
+    font-weight: bold;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-size: 3vw;
+    color: white;
+}
