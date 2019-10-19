@@ -3,20 +3,17 @@ import { Router } from '@angular/router';
 import { User } from '../model/User';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-header-two',
+  templateUrl: './header-two.component.html',
+  styleUrls: ['./header-two.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderTwoComponent implements OnInit {
   isCollapsed = true;
   userSignedIn = false;
   user: string;
   data: User;
 
   constructor(private router: Router) { }
-
-
-
   ngOnInit() {
     if (sessionStorage.getItem('User')) {
       this.userSignedIn = true;

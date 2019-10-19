@@ -69,7 +69,8 @@ img{
 }
 
 .smallHeader{
-    background-color: rgb(88, 86, 88);
+    background-color: black;
+    width: 50px !important;
     opacity: 0.9;
     padding-left: 20px;
 }

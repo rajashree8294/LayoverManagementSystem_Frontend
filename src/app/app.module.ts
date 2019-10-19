@@ -22,6 +22,7 @@ import { CurrencyPartnerComponent } from './currency-partner/currency-partner.co
 import { PassengerDetailsComponent } from './passenger-details/passenger-details.component';
 import { ExecutePaymentComponent } from './execute-payment/execute-payment.component';
 import {NgxTypedJsModule} from 'ngx-typed-js';
+import { HeaderTwoComponent } from './header-two/header-two.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
     TravelGuideComponent,
     CurrencyPartnerComponent,
     PassengerDetailsComponent,
-    ExecutePaymentComponent
+    ExecutePaymentComponent,
+    HeaderTwoComponent
   ],
   imports: [
     BrowserModule,
